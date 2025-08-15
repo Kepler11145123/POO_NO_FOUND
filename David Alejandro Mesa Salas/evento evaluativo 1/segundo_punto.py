@@ -21,9 +21,6 @@ for i in range(4):
     fila, columna = coordenadas_aleatorias[i]
     matriz[fila][columna] = elementos[i]
 
-for fila in matriz:
-    print(' '.join(fila))
-
 for i in range(1,dificultad+1):
     primera_cordenada = int(input("ingrese la fila: "))
     segunda_cordenada = int(input("ingrese la columna: "))
