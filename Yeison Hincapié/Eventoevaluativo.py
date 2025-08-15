@@ -14,7 +14,7 @@ if dificultad == "F":
     intentos_max = 10
 elif dificultad == "M":
     intentos_max = 7
-else:  # dificultad == "D"
+else:
     intentos_max = 4
 
 matriz = [["-" for _ in range(COLUMNAS)] for _ in range(FILAS)]
@@ -66,4 +66,4 @@ print("Tablero final:")
 for fila in matriz:
     print(" ".join(fila))
     break
-# Fin del jue
+
