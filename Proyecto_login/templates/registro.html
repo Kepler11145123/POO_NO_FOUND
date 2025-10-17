@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registro</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='auth.css') }}"
+    />
+  </head>
+  <body>
+    
+    <form method="POST" action="/registro">
+      <h2>Registro de Usuario</h2>
+      <input type = "hidden" name ="csrf_token" value = "{{csrf_token()}}">
+      
+      {% if mensaje_error %}
+      <p class="mensaje-error">{{ mensaje_error }}</p>
+      {% endif %}
+
+      <label>Nombre:</label>
+      <input type="text" name="nombre" required /><br />
+
+      <label>Correo:</label>
+      <input type="email" name="correo" required /><br />
+
+      <label>Contraseña:</label>
+      <input type="password" name="contraseña" required /><br />
+
+      <button type="submit">Registrar</button>
+
+      <p>¿Ya tienes cuenta? <a href="/">Inicia sesión</a></p>
+    </form>
+    
+  </body>
+</html>
