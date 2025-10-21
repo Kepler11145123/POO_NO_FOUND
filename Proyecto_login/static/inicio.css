@@ -1,0 +1,80 @@
+/* --- Importación de Fuente Moderna --- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7f6; /* Un gris muy claro */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* --- Header / Barra de Navegación --- */
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2e8b57;
+  text-decoration: none;
+}
+
+.header .user-info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header .user-info span {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* --- Botón de Cerrar Sesión --- */
+.logout-button {
+  background-color: #d9534f; /* Rojo para "salir" */
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none; /* Para la etiqueta <a> */
+  transition: all 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c9302c;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Contenedor Principal (el .contenedor de inicio.html) --- */
+.contenedor {
+  max-width: 900px;
+  margin: 3rem auto; /* Más espacio superior */
+  padding: 2.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.contenedor h2 {
+  color: #2e8b57;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.contenedor p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
