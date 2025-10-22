@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+}
+
+.ir_catalogo {
+  text-align: center;
+}
+
+.ir_catalogo {
+  display: inline-block;
+  background-color: #637AB9;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.ir_catalogo:hover {
+  background-color: #31326F;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logout_button {
+  background-color: #637AB9; /* Rojo para "salir" */
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none; /* Para la etiqueta <a> */
+  transition: all 0.3s ease;
+}
+
+.Inicio_button {
+  background-color: #637AB9;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.Inicio_button:hover {
+  background-color: #31326F;
+}
+
+.logout_button:hover {
+  background-color: #31326F;
+
+}
+
